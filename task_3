@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta charset=UTF-8 />
+<title>三栏式布局</title>
+<style type="text/css">
+   #dakuang{ margin-top:20px; border:1px solid #999; margin-left:20px; margin-right:20px; background-color:#eee; height:600px;}
+   #zuo{ margin-top:20px; border::1px solid #999; margin-left:20px; margin-right:20px; background-color:#FFFFFF; height:150px; width:200px; float:left;}
+   #zhong{ margin-top:20px; border::1px solid #999; margin-left:20px; margin-right:20px; background-color:#FFFFFF; height:450px;  width:850px; float:left;}
+   #you{ margin-top:20px; border::1px solid #999; margin-left:20px; margin-right:20px; background-color:#FFFFFF; height:450px;  float:right; width:120px;}
+   .img{ height:70px; width:80px; padding:20px; }
+</style>
+</head>
+<body>
+  <div id="dakuang">
+     <div id="zuo">
+     <img src="12.jpg" class="img"></img> 
+     <span style="float:right; padding-top:20px;">前啊那个端</span>
+  </div>
+  <div id="zhong">
+南京，简称宁，是江苏省会，地处中国东部地区，长江下游，濒江近海。全市下辖11个区，总面积6597平方公里，2013年建成区面积752.83平方公里，常住人口818.78万，其中城镇人口659.1万人。
+“江南佳丽地，金陵帝王州”，南京拥有着6000多年文明史、近2600年建城史和近500年的建都史，是中国四大古都之一，有“六朝古都”、“十朝都会”之称，是中华文明的重要发祥地，历史上曾数次庇佑华夏之正朔，长期是中国南方的政治、经济、文化中心，拥有厚重的文化底蕴和丰富的历史遗存。
+南京是国家重要的科教中心，自古以来就是一座崇文重教的城市，有“天下文枢”、“东南第一学”的美誉。截至2013年，南京有高等院校75所，其中211高校8所，仅次于北京上海；国家重点实验室25所、国家重点学科169个、两院院士83人，均居中国第三。 
+  </div>
+  <div id="you">
+	  <img src="12.jpg" class="img"></img><img src="12.jpg"class="img"></img><img src="12.jpg" class="img"></img><img src="12.jpg" class="img"></img>
+  </div>
+</div>
+</body>
+</html>
