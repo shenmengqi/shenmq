@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<head>
+<meta charset=UTF-8/>
+<title>无标题文档</title>
+<style type="text/css">
+*{ margin:0; padding:0; font-family:楷体;font-size:18px; }
+body{ background-color:#CCCCCC;}
+#header{ height:70px; background-color:#333333; margin:0 auto;}
+#footer{ background-color:#333333; height:40px; padding-top:20px; margin-bottom:0;}
+#tu1{ height:50px; width: 100px; padding: 10px 30px; }
+nav{ float:right; padding-top:23px; padding-right:20px;}
+nav li{ float:left; padding-right:30px}
+#main{ margin:30px 30px; width:800px; }
+#yi,#er,#san,#si{ margin: 20px 0 30px 0; background-color:#FFFFFF; border:#999999 solid 1px; padding: 30px;}
+#wu{ margin: 20px 0 30px 0; background-color:#FFFFFF; border:#999999 solid 1px; padding: 30px; width:auto; position:absolute; top:80px; right: 10px;}
+#yi img,#er img{ padding:20px 0;}
+#pic{ padding:10px; height:200px; }
+.tu2{ height:50px; width:70px; padding:10px; }
+.zi{ font-size:9px; padding-left:15px;}
+#san ul{ margin-bottom:20px;}
+#san li{ float:left; border:1px #CCCCCC solid; margin:10px;}
+#si ol{ padding-left:50px;  line-height:30px; font-size:20px; }
+#wu p{ border-left:solid #999999 5px; padding-left:10px; font-size:24px; }
+#submit{ height:40px; width:100%; background-color:#0000FF; border-radius: 15px; margin-top:20px;color:#FFFFFF; }
+#footer span{ color:#FFFFFF;  padding-left:47%;}
+</style>
+</head>
+<body>
+<div id="header">
+	<img src="12.jpg" id="tu1"/>
+	<nav><ul type="disc">
+		<li><a href="#yi" link="white" vlink="grey">导航链接一</a></li>
+		<li><a href="#er" link="white" vlink="grey">导航链接二</a></li>
+		<li><a href="#san" link="white" vlink="grey">导航链接三</a></li>
+		<li><a href="#si" link="white" vlink="grey">导航链接四</a></li></ul>
+	</nav>
+</div>
+<div id="main">
+   <div id="yi">
+   	    <h2 style=" line-height:35px;">文章一级标题</h2>
+		<h3 style=" line-height:35px; color:#666666">文章二级标题</h3>
+		<p style="line-height:35px; color:#CCCCCC">文章作者：     文章发表时间：</p>
+		<p style=" line-height:25px;">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" link="blue" vlink="red">这里有一个链接到http://ife.baidu.com ,</a>这是一个很长的段落，这是一个很长的段落。</p>
+		<img src="11.jpg" alt="美景"></img>
+		<p style="line-height:25px;">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" link="blue" vlink="red" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com ,</a>这是一个很长的段落，这是一个很长的段落。</p>
+   </div>
+   <div id="er">
+   <h2 style=" line-height:35px;">文章二级标题</h2>
+		<p style=" line-height:35px; color:#CCCCCC">文章作者：     文章发表时间：</p>
+		<p style=" line-height:25px;">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" link="blue" vlink="red">这里有一个链接到http://ife.baidu.com ,</a>这是一个很长的段落，这是一个很长的段落。</p>
+		<img src="11.jpg" alt="美景"></img>
+	<ul type=disc>
+		<li><a href="http://www.baidu.com" link="blue" vlink="red">列表项目一</a></li>
+		<li><a href="http://www.baidu.com" link="blue" vlink="red">列表项目二</a></li>
+		<li><a href="http://www.baidu.com" link="blue" vlink="red">列表项目三</a></li>
+	</ul>
+   </div>
+   <div id="san">
+     <h2>图片</h2>
+	 <div id="pic">
+	  <ul type="none">
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  <li><p class="zi">好看的图片</p><img class="tu2" src="11.jpg" alt="美景"></img></li>
+	  </ul>
+    </div>
+   </div>
+   <div id="si">
+        <h2  style="line-height:35px;">最后一篇文章一级标题</h2>
+		<h3 style="line-height:35px; color:#666666">文章二级标题</h3>
+	    <p style="line-height:35px; color:#CCCCCC">文章作者：     文章发表时间：</p>
+		<ol type="1">
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+		<p>下面是一个表格，给表格加一个border="1"好让你看出是一个表格</p>
+		<table width=100% border="0.8px">
+		  <tr>
+			<th width="263" bgcolor="#333333"><span style="color: #FFFFFF">表头</span></th>
+			<th width="315" bgcolor="#333333"><span style="color: #FFFFFF">表头</span></th>
+			<th width="309" bgcolor="#333333"><span style="color: #FFFFFF">表头</span></th>
+		  </tr>
+		  <tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="http://baidu.com" link="pink"><u>操作</u></a></td>
+		  </tr>
+		  <tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="http://baidu.com" link="pink"><u>操作</u></a></td>
+		  </tr>
+		  <tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="http://baidu.com" link="pink"><u>操作</u></a></td>
+		  </tr>
+		  <tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="http://baidu.com" link="pink"><u>操作</u></a></td>
+		  </tr>
+		  <tr bgcolor="#999999">
+			<td >总计</td>
+			<td colspan="2"  >1000</td>
+		  </tr>
+	  </table>
+   </div></div>
+   <div id="wu">
+    <p>这里以后是一个侧栏，这是侧栏的标题</p>
+	  <div align="center">
+	    <table width="350" border="0" align="center">
+	      <tr>
+	        <td width="238" align="right"> 输入邮箱地址&nbsp;</td>
+            <td width="183"><form id="form2" name="form2" method="post" action="">
+              <label>
+                <input name="textfield" type="text" placeholder="输入邮箱地址" />
+              </label>
+            </form>          </td>
+          </tr>
+	      <tr>
+	        <td>&nbsp;</td>
+            <td><font size="-1" color="#999999">邮箱地址请按要求格式输入</font></td>
+          </tr>
+	      <tr>
+	        <td align="right">请输入密码&nbsp;</td>
+            <td><form id="form3" name="form3" method="post" action="">
+              <label>
+                <input type="password" name="textfield2" placeholder="输入密码"/>
+              </label>
+            </form>          </td>
+          </tr>
+	      <tr>
+	        <td align="right">重复输入密码&nbsp;</td>
+            <td><form id="form4" name="form4" method="post" action="">
+              <label>
+                <input type="password" name="textfield3" placeholder="重复输入密码"/>
+              </label>
+            </form> </td>
+          </tr>
+	      <tr>
+	        <td>&nbsp;</td>
+            <td><font size="2" color="#999999">密码请为6-16位英文数字</font> </td>
+          </tr>
+	      <tr>
+	        <td align="right">性别&nbsp;</td>
+            <td><form id="form5" name="form5" method="post" action="">
+              <label>
+                <input type="radio" name="radiobutton" value="radiobutton" />
+                男</label>
+              <label>
+              <input type="radio" name="radiobutton" value="radiobutton" />
+              女</label>
+            </form> </td>
+          </tr>
+	      <tr>
+	        <td align="right">城市&nbsp;</td>
+            <td><form id="form6" name="form6" method="post" action="">
+              <label>
+              <select name="select2">
+                <option>北京</option>
+              </select>
+              </label>
+              </form> </td>
+          </tr>
+	      <tr>
+	        <td align="right">爱好&nbsp;</td>
+            <td><form id="form7" name="form7" method="post" action="">
+              <label>
+                <input type="checkbox" name="checkbox4" value="checkbox" />
+                运动</label>
+              <label>
+              <input type="checkbox" name="checkbox5" value="checkbox" />
+              艺术</label>
+              <label>
+              <input type="checkbox" name="checkbox6" value="checkbox" />
+              科学 </label>
+            </form>  </td>
+          </tr>
+	      <tr>
+	        <td align="right">个人描述&nbsp;</td>
+            <td><form id="form8" name="form8" method="post" action="">
+              <label>
+                <textarea name="textarea2"  placeholder="这是一个多行描述，输入你的个人描述"></textarea>
+              </label>
+              </form>            </td>
+          </tr>
+        </table>
+     </div>
+	  <form id="form1" name="form1" method="post" action="">
+	  <label>
+	    <input name="Submit" type="submit" id="submit" value="确认提交" />
+	  </label>
+</form>
+   </div>
+<div id="footer"><span>版权所有&copy;</span>
+</div>
+</body>
+</html>
