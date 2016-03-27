@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+table{ width:240px;  }
+table tr{ width: 60px; height:20px; font-family:"楷体"}
+table th{ font-size:18px; background-color:#000000; color:#FFFFFF; text-align:left;}
+table td{ font-size:14px;}
+tr:nth-child(odd) { background-color:RGB(204,204,204);}
+tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){ color:red;}
+input{ margin-top:50px; width:100px; }
+input:hover{ width:200px; }
+#yi{ width:200px; height:100px; position: relative; overflow: hidden; background-color:#ccc; }
+.er{ position: relative;  width: 300%;    height: 100%;  transition: left .8s ease; }
+.er1 { float: left; width: 33.3%; height: 100%;}
+.er1:first-child { background-color: red; }
+.er1:nth-child(2) {  background-color: blue; }
+.er1:nth-child(3) { background-color: green; }
+#yi1:target ~ .er { left: 0;}
+#yi2:target ~ .er {left: -100%;}
+#yi3:target ~ .er {left: -200%;}
+.san{ position: absolute; right: 0;  bottom: 0; }
+.san a { display: block;  width: 30px; height: 30px;  float: left;  line-height: 30px;  text-align: center;  
+         background-color: rgba(0, 0, 0, .2);  border: 1px solid transparent; }
+</style>
+</head>
+
+<body>
+    <table>
+	  <tr>
+		<th>排名</th>
+		<th>网站</th>
+		<th>热度</th>
+	  </tr>
+	  <tr><td>1</td><td>百度</td><td>10000</td></tr>
+	  <tr><td>2</td><td>百度</td><td>9000</td></tr>
+	  <tr><td>3</td><td>百度</td><td>8000</td></tr>
+	  <tr><td>4</td><td>百度</td><td>7000</td></tr>
+	  <tr><td>5</td><td>百度</td><td>6000</td></tr>
+	  <tr><td>6</td><td>百度</td><td>5000</td></tr>
+	  <tr><td>7</td><td>百度</td><td>4000</td></tr>
+	  <tr><td>8</td><td>百度</td><td>3000</td></tr>
+	  <tr><td>9</td><td>百度</td><td>2000</td></tr>
+	  <tr><td>10</td><td>百度</td><td>1000</td></tr>
+   </table>
+   <form id="form1" name="form1" method="post" action="">
+       <input type="text" name="textfield" placeholder="宽度变化"/>
+   </form>
+   <p>&nbsp;</p>
+    <div id="yi">
+            <span id="yi1" hidden></span>
+            <span id="yi2" hidden></span>
+            <span id="yi3" hidden></span>
+        <div class="er">
+            <div class="er1"></div>
+            <div class="er1"></div>
+            <div class="er1"></div>
+        </div>
+        <div class="san">
+            <a href="#yi1">1</a>
+            <a href="#yi2">2</a>
+            <a href="#yi3">3</a>
+        </div>
+    </div>
+</body>
+</html>
