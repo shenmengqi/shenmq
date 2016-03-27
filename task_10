@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+   *{ margin:0; padding:0; box-sizing:border-box;}
+   #main{display: flex; padding: 20px; border:1px black solid; justify-content: space-between; align-items: center;}
+   #yi,#er,#san,#si{width: 150px; margin-bottom: 20px; border: 1px solid #f00;}
+   #yi{height: 120px;}
+   #er{height: 100px;}
+   #san{height: 40px;}
+   #si{height: 200px;}
+
+@media screen and (max-width: 640px){
+	 #main{flex-wrap: wrap; align-items: flex-start;}
+	 #si{order: -1;}  }
+</style>
+</head>
+
+<body>
+   <div id="main">
+     <div id="yi"></div>
+     <div id="er"></div>
+     <div id="san"></div>
+     <div id="si"></div>
+   </div>
+</body>
+</html>
